@@ -106,3 +106,24 @@ sudo chmod +x wm_autoupdate_key.sh
 ./wm_autoupdate_key.sh
 ```
 
+## XAMPP Ubuntu
+### Download 
+```
+sudo -i
+sudo apt install net-tools 
+mkdir xampp
+cd xampp
+wget https://zenlayer.dl.sourceforge.net/project/xampp/XAMPP%20Linux/8.0.28/xampp-linux-x64-8.0.28-0-installer.run    
+```
+### Setup 
+```
+chmod 755 xampp-linux-x64-8.0.28-0-installer.run
+./xampp-linux-x64-8.0.28-0-installer.run
+```
+
+- Next and next. Finish Uncheck Launch Xampp.
+### Run 
+```
+sudo /opt/lampp/lampp start
+```
+
